@@ -107,7 +107,7 @@ Empower developers with the tools they need to build, debug, optimize, and deplo
 ### Installation
 ```bash
 # Clone the toolkit
-git clone https://github.com/YOUR_USERNAME/pico-community-toolkit.git
+git clone https://github.com/SemiuAdesina/pico-community-toolkit.git
 cd pico-community-toolkit
 
 # Install all tools
@@ -120,18 +120,17 @@ cd ../cli-extensions && cargo install --path .
 
 ## Current Status
 
-| Component | Status | Version | Contributors |
-|-----------|--------|---------|--------------|
-| Backend Comparison | In Development | 0.1.0 | 1 |
-| CLI Extensions | Planned | - | - |
-| Debugger | Planned | - | - |
-| Prover Tools | Planned | - | - |
-| Coprocessor Registry | Planned | - | - |
-| EVM Helper | Planned | - | - |
-| Testing Framework | Planned | - | - |
-| Learning Academy | Planned | - | - |
-| Monitoring Dashboard | Planned | - | - |
-| Proof Marketplace | Planned | - | - |
+| Component | Status | Version | Documentation |
+|-----------|--------|---------|---------------|
+| Backend Comparison | Complete | 0.1.0 | README.md |
+| CLI Extensions | Complete | 0.1.0 | README.md |
+| Debugger | Complete | 0.1.0 | README.md |
+| EVM Helper | Complete | 0.1.0 | README.md |
+| Testing Framework | Complete | 0.1.0 | README.md |
+| Monitoring Dashboard | Complete | 0.1.0 | README.md |
+| Proof Marketplace | Complete | 0.1.0 | README.md |
+| Coprocessor Registry | Complete | 0.1.0 | README.md |
+| Learning Academy | Complete | 0.1.0 | README.md |
 
 ## Contributing
 
@@ -159,7 +158,7 @@ We welcome contributions from the community! Each component has its own contribu
 ## Community
 
 - [Discord](https://discord.gg/brevis-network)
-- [GitHub Discussions](https://github.com/YOUR_USERNAME/pico-community-toolkit/discussions)
+- [GitHub Discussions](https://github.com/SemiuAdesina/pico-community-toolkit/discussions)
 - [Twitter](https://twitter.com/brevis_network)
 
 ## License
