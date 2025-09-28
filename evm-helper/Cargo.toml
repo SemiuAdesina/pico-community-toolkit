@@ -1,0 +1,22 @@
+[package]
+name = "pico-evm-helper"
+version = "0.1.0"
+edition = "2021"
+description = "EVM integration helper for Pico zkVM programs"
+authors = ["Pico Community"]
+license = "MIT"
+
+[[bin]]
+name = "pico-evm"
+path = "src/main.rs"
+
+[dependencies]
+clap = { version = "4.5", features = ["derive"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+anyhow = "1.0"
+env_logger = "0.11"
+hex = "0.4"
+ethers = { version = "2.0", features = ["abigen"] }
+pico-sdk = { git = "https://github.com/brevis-network/pico", package = "pico-sdk" }
+pico-vm = { git = "https://github.com/brevis-network/pico", package = "pico-vm" }

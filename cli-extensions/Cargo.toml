@@ -1,0 +1,41 @@
+[package]
+name = "pico-cli-extensions"
+version = "0.1.0"
+edition = "2021"
+authors = ["Pico Community"]
+description = "Extended CLI tools for Pico zkVM development"
+license = "MIT"
+repository = "https://github.com/YOUR_USERNAME/pico-community-toolkit"
+
+[[bin]]
+name = "pico-ext"
+path = "src/main.rs"
+
+[dependencies]
+# Pico SDK
+pico-sdk = { git = "https://github.com/brevis-network/pico" }
+
+# CLI
+clap = { version = "4.0", features = ["derive"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+# File operations
+walkdir = "2.3"
+glob = "0.3"
+
+# Utilities
+anyhow = "1.0"
+thiserror = "1.0"
+chrono = { version = "0.4", features = ["serde"] }
+
+# Logging
+env_logger = "0.10"
+log = "0.4"
+
+# Terminal UI
+crossterm = "0.27"
+ratatui = "0.24"
+
+# Process management
+sysinfo = "0.30"
