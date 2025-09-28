@@ -150,16 +150,25 @@ We welcome contributions from the community! Each component has its own contribu
 
 ## Documentation
 
-- [Architecture Overview](docs/architecture.md)
-- [Development Guide](docs/development.md)
-- [API Reference](docs/api-reference.md)
-- [Contributing Guide](docs/contributing.md)
+Each component has its own comprehensive documentation:
+
+- [Backend Comparison Tool](backend-comparison/README.md) - Performance benchmarking guide
+- [CLI Extensions](cli-extensions/README.md) - Extended command-line tools
+- [Debugger & Profiler](debugger/README.md) - Debugging and profiling tools
+- [EVM Integration Helper](evm-helper/README.md) - Ethereum integration guide
+- [Testing Framework](testing-framework/README.md) - Testing suite documentation
+- [Monitoring Dashboard](monitoring-dashboard/README.md) - Monitoring and analytics
+- [Proof Marketplace](proof-marketplace/README.md) - Decentralized proof generation
+- [Coprocessor Registry](coprocessor-registry/README.md) - Community circuits
+- [Learning Academy](learning-academy/README.md) - Educational resources
 
 ## Community
 
-- [Discord](https://discord.gg/brevis-network)
-- [GitHub Discussions](https://github.com/SemiuAdesina/pico-community-toolkit/discussions)
-- [Twitter](https://twitter.com/brevis_network)
+- [Discord - Brevis Network](https://discord.gg/brevis-network) - Join the community discussion
+- [GitHub Discussions](https://github.com/SemiuAdesina/pico-community-toolkit/discussions) - Join the conversation
+- [Issues & Bug Reports](https://github.com/SemiuAdesina/pico-community-toolkit/issues) - Report issues or request features
+- [Twitter @brevis_zk](https://twitter.com/brevis_zk) - Follow for updates and announcements
+- [Brevis Network](https://brevis.network) - Official Pico zkVM documentation and community
 
 ## License
 
