@@ -150,8 +150,13 @@ We welcome contributions from the community! Each component has its own contribu
 
 ## Documentation
 
-Each component has its own comprehensive documentation:
+### General Documentation
+- [Architecture Overview](docs/architecture.md) - System design and component architecture
+- [Development Guide](docs/development.md) - Development setup and workflow
+- [API Reference](docs/api-reference.md) - Complete API documentation
+- [Contributing Guide](docs/contributing.md) - How to contribute to the project
 
+### Component Documentation
 - [Backend Comparison Tool](backend-comparison/README.md) - Performance benchmarking guide
 - [CLI Extensions](cli-extensions/README.md) - Extended command-line tools
 - [Debugger & Profiler](debugger/README.md) - Debugging and profiling tools
